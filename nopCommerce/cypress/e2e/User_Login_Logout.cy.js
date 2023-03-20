@@ -15,8 +15,8 @@ describe("Verify the Functionality of Login & Logout", () => {
     cy.get(".page-title")
       .contains("Welcome, Please Sign In!")
       .should("be.visible");
-    cy.get("#Email").type("iffne2ri1@kzccv.com");
-    cy.get("#Email").should("have.value", "iffne2ri1@kzccv.com");
+    cy.get("#Email").type("2xbisg5mnte@wuuvo.com");
+    cy.get("#Email").should("have.value", "2xbisg5mnte@wuuvo.com");
     cy.get("#Password").type("example123");
     cy.get("#Password").should("have.value", "example123");
     cy.get(".buttons").find("button").eq(1).click();
